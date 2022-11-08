@@ -12,3 +12,10 @@ The xmllist.txt is the list of xml file names to convert.
 The "../Annotations" is the place where all xmls located.
 
 The "output.json" is the output json file.
+---
+### 2022/11/08 說明
+* 將VOC格式的XML統一轉成coco-json
+* 指令:`python voc2coco2.py output.txt ./xml output.json`
+* `output.txt` 裡面是所有xml的list
+* `./xml` 裡面是放所有圖片的標註xml
+* `output.json` 是要輸出的檔案名稱
